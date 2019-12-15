@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperTomlProcessor", "HyperTomlProcessor\HyperTomlProcessor.csproj", "{44192FE8-19EB-41E5-BE49-5346937F7C26}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0C91DE00-0445-4560-BDAC-5A22C5F2E3D6}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -18,16 +16,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperTomlProcessor.Test.Cmd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperTomlProcessor.Net40", "HyperTomlProcessor.Net40\HyperTomlProcessor.Net40.csproj", "{C2E79D20-2868-45FF-8D50-0E236A57AA90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperTomlProcessor.P8Test", "HyperTomlProcessor.P8Test\HyperTomlProcessor.P8Test.csproj", "{8896289A-57C5-4861-9A03-27B62DEF7D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperTomlProcessor.NUnit.Test", "nunit_test\HyperTomlProcessor.NUnit.Test.csproj", "{7D3F7C1C-199B-40C3-9538-72A104BDC842}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "HyperTomlProcessor", "HyperTomlProcessor\HyperTomlProcessor.csproj", "{46F12233-55FD-4DE8-AC23-65B8942094AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44192FE8-19EB-41E5-BE49-5346937F7C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44192FE8-19EB-41E5-BE49-5346937F7C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44192FE8-19EB-41E5-BE49-5346937F7C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44192FE8-19EB-41E5-BE49-5346937F7C26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EAF4889-5C14-4546-9932-0C7EDE393C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EAF4889-5C14-4546-9932-0C7EDE393C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EAF4889-5C14-4546-9932-0C7EDE393C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,6 +40,18 @@ Global
 		{C2E79D20-2868-45FF-8D50-0E236A57AA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E79D20-2868-45FF-8D50-0E236A57AA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E79D20-2868-45FF-8D50-0E236A57AA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8896289A-57C5-4861-9A03-27B62DEF7D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8896289A-57C5-4861-9A03-27B62DEF7D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8896289A-57C5-4861-9A03-27B62DEF7D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8896289A-57C5-4861-9A03-27B62DEF7D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3F7C1C-199B-40C3-9538-72A104BDC842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3F7C1C-199B-40C3-9538-72A104BDC842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3F7C1C-199B-40C3-9538-72A104BDC842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3F7C1C-199B-40C3-9538-72A104BDC842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F12233-55FD-4DE8-AC23-65B8942094AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F12233-55FD-4DE8-AC23-65B8942094AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F12233-55FD-4DE8-AC23-65B8942094AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F12233-55FD-4DE8-AC23-65B8942094AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

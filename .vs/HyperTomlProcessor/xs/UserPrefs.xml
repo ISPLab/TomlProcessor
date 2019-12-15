@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{E50D8152-387C-4D8C-81FF-FC0FAA371DE1}|Default">
+  <MonoDevelop.Ide.ItemProperties.HyperTomlProcessor.NUnit.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="nunit_test/DynamicTomlTest.cs">
+    <Files>
+      <File FileName="HyperTomlProcessor/Toml.cs" Line="1" Column="1" />
+      <File FileName="HyperTomlProcessor.P8Test/SerializeTomlTest.cs" Line="12" Column="10" />
+      <File FileName="nunit_test/SerializeTomlTest.cs" Line="31" Column="1" />
+      <File FileName="nunit_test/DynamicTomlTest.cs" Line="54" Column="10" />
+      <File FileName="nunit_test/Utils.cs" Line="14" Column="6" />
+      <File FileName="HyperTomlProcessor/TomlWriter.cs" Line="273" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HyperTomlProcessor" expanded="True">
+            <Node name="HyperTomlProcessor.Net40" expanded="True" />
+            <Node name="HyperTomlProcessor.NUnit.Test" expanded="True">
+              <Node name="DynamicTomlTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="HyperTomlProcessor" expanded="True">
+            <Node name="HyperTomlProcessor.NUnit.Test" expanded="True">
+              <Node name="HyperTomlProcessor" expanded="True">
+                <Node name="P8Test" expanded="True">
+                  <Node name="SerializeTomlTest" expanded="True">
+                    <Node name="SerializeCustomObjTest" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HyperTomlProcessor.Test.Cmd PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>HyperTomlProcessor/HyperTomlProcessor.csproj</String>
+    <String>HyperTomlProcessor.P8Test/HyperTomlProcessor.P8Test.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/andreyorlov/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/07c23f2ca43c01651fca00644e6638dd0050e4cf</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/TOSHIBA EXT/Projects/P8Projects/HyperTomlProcessor/HyperTomlProcessor.P8Test/DynamicTomlTest.cs" relfile="HyperTomlProcessor.P8Test/DynamicTomlTest.cs" line="74" column="1" />
+      <Breakpoint file="/Volumes/TOSHIBA EXT/Projects/P8Projects/HyperTomlProcessor/nunit_test/Test.cs" relfile="nunit_test/Test.cs" line="10" column="1" />
+      <Breakpoint file="/Volumes/TOSHIBA EXT/Projects/P8Projects/HyperTomlProcessor/nunit_test/SerializeTomlTest.cs" relfile="nunit_test/SerializeTomlTest.cs" line="24" column="1" />
+      <Breakpoint file="/Volumes/TOSHIBA EXT/Projects/P8Projects/HyperTomlProcessor/nunit_test/SerializeTomlTest.cs" relfile="nunit_test/SerializeTomlTest.cs" line="22" column="1" />
+      <Breakpoint file="/Volumes/TOSHIBA EXT/Projects/P8Projects/HyperTomlProcessor/nunit_test/SerializeTomlTest.cs" relfile="nunit_test/SerializeTomlTest.cs" line="29" column="1" />
+      <Breakpoint file="/Volumes/TOSHIBA EXT/Projects/P8Projects/HyperTomlProcessor/HyperTomlProcessor/TomlWriter.cs" relfile="HyperTomlProcessor/TomlWriter.cs" line="274" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

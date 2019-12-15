@@ -262,6 +262,12 @@ namespace HyperTomlProcessor
                 }
                 return false;
             });
+            if(xe.HasAttributes)
+            {
+                //if (xe.Attribute is System.ComponentModel.DescriptionAttribute)
+                 //         WriteComment(c, writer);
+            }
+
             foreach (var n in ordered)
             {
                 var e = n as XElement;
