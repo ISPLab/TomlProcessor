@@ -35,7 +35,7 @@
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Parseq">
+    <Reference Include="Parseq, Version=3.0.0.0, Culture=neutral, PublicKeyToken=8bbc3af4d49a52d2, processorArchitecture=MSIL">
       <HintPath>..\packages\Parseq.3.0.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\Parseq.dll</HintPath>
     </Reference>
     <Reference Include="System" />
