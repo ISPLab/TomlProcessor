@@ -225,7 +225,7 @@ namespace HyperTomlProcessor
                 return (T)s.ReadObject(xr);
             }
         }
-
+   
         private T DeserializeObject<T>(ITokenStream<char> stream, Func<DataContractJsonSerializer> factory = null)
         {
             return DeserializeObject<T>(this.parser.DeserializeXElement(stream), factory);

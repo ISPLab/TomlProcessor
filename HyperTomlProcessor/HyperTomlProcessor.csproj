@@ -38,7 +38,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Parseq, Version=3.0.0.0, Culture=neutral, PublicKeyToken=8bbc3af4d49a52d2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Parseq.3.0.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\Parseq.dll</HintPath>
+      <HintPath>..\..\packages\Parseq.3.0.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\Parseq.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDataContractJsonSerializer.cs" />
     <Compile Include="Toml.cs" />
     <Compile Include="TomlParser.cs" />
     <Compile Include="DynamicToml.cs" />
@@ -62,13 +64,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+  <!-- <Import Project="$\.nuget\NuGet.targets" Condition="Exists('$\.nuget\NuGet.targets')" />-->
+  <!-- <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>このプロジェクトは、このコンピューターにはない NuGet パッケージを参照しています。これらをダウンロードするには、NuGet パッケージの復元を有効にしてください。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。不足しているファイルは {0} です。</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
-  </Target>
+  </Target>-->
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
