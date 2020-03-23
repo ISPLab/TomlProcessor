@@ -33,7 +33,7 @@ namespace HyperTomlProcessor
                 case TomlItemType.MultilineLiteralString:
                     return xe.Value;
                 case TomlItemType.Integer:
-                    return (long)xe;
+                    return (int)xe;
                 case TomlItemType.Float:
                     return (double)xe;
                 case TomlItemType.Boolean:
