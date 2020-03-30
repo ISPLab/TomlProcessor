@@ -157,3 +157,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 *.nupkg
+/.vs/HyperTomlProcessor/v16/Server/sqlite3/storage.ide
+/.vs/HyperTomlProcessor/v16/Server/sqlite3/storage.ide-shm
+/.vs/HyperTomlProcessor/v16/Server/sqlite3/storage.ide
